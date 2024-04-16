@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 // import the inquirer package
 import inquirer from "inquirer"
 
