@@ -1,9 +1,11 @@
 {
-  "name": "word-counter-",
+  "name": "@samade747/word-counter-",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,11 +13,13 @@
   "license": "ISC",
   "devDependencies": {
     "@types/inquirer": "^9.0.7",
+    "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   },
   "dependencies": {
     "inquirer": "^9.2.19",
     "tsc": "^2.0.4",
     "tsc-init": "^2.1.0"
-  }
+  },
+  "description": ""
 }
